@@ -39,7 +39,7 @@ This project provides a command-line Blackjack simulator implemented in both Pyt
 **Prerequisites:**
 *   uv (https://docs.astral.sh/uv/)
 
-**Installation (matplotlib):**
+**Installation:**
 ```bash
 uv python install 3.13
 uv venv
