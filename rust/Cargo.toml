@@ -1,0 +1,24 @@
+#[dependencies]
+#rand = "0.8"
+#log = "0.4"
+#simple_logger = "4.3" # Or another logger like env_logger or fern
+#plotters = "0.3.5"
+#plotters-bitmap = "0.3.5"
+## time = "0.3" # We'll use std::time for simplicity here, but 'time' crate is also good
+## chrono = "0.4" # For more advanced timestamp formatting if needed for logs
+
+[package]
+name = "rust_blackjack_simulator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+log = "0.4"
+simple_logger = "4.3"
+plotters = "0.3.5"
+plotters-bitmap = "0.3.5"
+fern = "0.6"
+chrono = "0.4" # fern often uses chrono for timestamps
+# If simple_logger's timestamp format macro needs it:
+# time = { version = "0.3", features = ["macros"] }
