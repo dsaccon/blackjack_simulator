@@ -1,4 +1,3 @@
-```markdown
 # Blackjack Simulator (Python & Rust)
 
 This project provides a command-line Blackjack simulator implemented in both Python and Rust. It allows users to play interactively or run simulations to observe outcomes based on basic strategy.
@@ -45,7 +44,6 @@ uv python install 3.13
 uv venv
 source .venv/bin/activate
 uv pip install matplotlib
-```
 
 **Running:**
 1.  Navigate to the python/ directory.
