@@ -54,7 +54,7 @@ uv pip install matplotlib
     ```
 2.  Run the script from your terminal:
     ```bash
-    python blackjack.py
+    uv run blackjack.py
     ```
 3.  Follow the on-screen prompts:
     *   Choose "(i)nteractive" or "(s)imulation" mode.
