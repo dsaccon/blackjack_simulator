@@ -44,6 +44,7 @@ uv python install 3.13
 uv venv
 source .venv/bin/activate
 uv pip install matplotlib
+```
 
 **Running:**
 1.  Navigate to the python/ directory.
@@ -123,7 +124,6 @@ The "Book" mode and AI players follow a simplified basic strategy generally alig
 *   Surrender option.
 *   More detailed basic strategy charts for different rule variations.
 *   GUI instead of command-line interface.
-```
 
 **Key things this README includes:**
 
